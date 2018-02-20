@@ -174,7 +174,10 @@ $sudo pip3 install tensorflow-1.6.0rc1-cp36-none-any.whl
 
 >Output : Hello, TensorFlow!
 
->Cheak the version by this : python3 -c 'import tensorflow as tf; print(tf.__version__)'
+>Cheak the version by this : 
+```sh
+$ python3 -c 'import tensorflow as tf; print(tf.__version__)'
+```
 
 >Reference :
 
