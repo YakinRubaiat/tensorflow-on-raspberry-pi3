@@ -94,7 +94,7 @@ $ sudo cat /proc/cpuinfo
 
 
 
-#If you want to install lower version of tensorflow(v 0.9.0):  
+# If you want to install lower version of tensorflow(v 0.9.0):  
 
 >Follow this : 
 
@@ -112,7 +112,7 @@ $ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/tensorflow-
 $ sudo pip install --upgrade $TF_BINARY_URL
 ```
 
-#For Python 3:
+# For Python 3:
 
 ```sh
 $ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/tensorflow-0.9.0-py3-none-any.whl
@@ -128,7 +128,7 @@ $export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/tensorflow-0
 $sudo pip install --upgrade $TF_BINARY_URL
 ```
 
-#If you want to install tensorflow(v 1.1.0) :
+# If you want to install tensorflow(v 1.1.0) :
 
 >Follow this :
 
