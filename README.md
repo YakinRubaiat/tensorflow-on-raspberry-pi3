@@ -164,13 +164,13 @@ $sudo pip3 install tensorflow-1.6.0rc1-cp36-none-any.whl
 >                                                                          ^^                                            	
 
 >Then run a simple tensorflow program like this :
-    ```sh
-              $python3 
-              >>>import tensorflow as tf
-              >>>hello = tf.constant('Hello, TensorFlow!')
-              >>>sess = tf.Session()							
-              >>>print(sess.run(hello))
-     ```         
+```sh
+    $python3 
+    import tensorflow as tf
+    hello = tf.constant('Hello, TensorFlow!')
+    sess = tf.Session()							
+    print(sess.run(hello))
+ ```         
 
 >Output : Hello, TensorFlow!
 
